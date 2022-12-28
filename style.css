@@ -1,0 +1,195 @@
+body {
+    background-color: black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;    
+    text-decoration: none;
+    font-family: Century Gothic;
+}
+
+nav {
+    display: flex;
+    width: 1050px;  /*width and margin auto centered banner */
+    margin: auto;  
+    place-items: center; /* centers content vertically */
+    place-content: center; /* centers content horizontally */
+}
+
+/* add a gradient under the menu links */
+
+#grad1 { 
+    height: 40px;
+    background-color: #6d4b2b; /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to bottom right, #663300, #d8ca9f) ); */
+  }
+
+/* centers the navigation */
+nav ul {
+    list-style: none;
+    text-align: center;
+ }
+
+
+nav li {
+    display: in-flex;
+    font-size: large;
+    /* border: 1px solid greenyellow; */
+ }
+
+a:link {
+    text-decoration: none;
+    color: white; /* changes the text color in html */
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+/* displays the navigation horizontally */
+ul.horizontal{ 
+    margin:0;
+    padding:0;
+}
+
+/* displays the navigation horizontally */
+ul.horizontal li{
+    display:block;
+    float:left;
+    padding:0 10px;
+}
+
+.banner {
+    display: flex;
+    width: 1050px;  /*width and margin auto centered banner */
+    margin: auto;
+}
+
+ div {
+    float: center; 
+ } 
+
+.section1 {
+    display: flex;
+    width: 1050px;
+    margin: auto;
+}
+
+.flexbox {
+    display: flex;
+    width: 1050px;
+    place-items: center; /* centers content vertically */
+    place-content: center; /* centers content horizontally */
+    margin: auto;
+    padding-bottom: 80px; /*  add space at the bottom */
+}
+
+h1 {
+    color: white;
+}
+
+.goldtext {
+    color: goldenrod;
+}
+
+.inperson {
+    flex: 1;
+    text-align: center;
+    column-width: 300px;
+ 
+ }
+
+p.registration {
+    color: white;
+    line-height: 5px; /* decrease the space between lines */
+ }
+
+ .verticalLine {
+    border-left: 4px solid goldenrod;
+    height: 200px;
+  }
+
+ 
+.online {
+    flex: 1;
+    text-align: center;
+    column-width: 300px;
+   /* column-rule-style: solid; 
+    column-rule-color: goldenrod;
+    column-rule-width: 2px;*/
+}
+
+.audio { 
+    flex: 1;
+     text-align: center; 
+    column-width: 400px;
+}
+
+.GCheader {
+    text-align: center;
+}
+
+.flexbox2 {
+    display: flex;
+    width: 1050px;
+    place-items: center; /* centers content vertically */
+    place-content: center; /* centers content horizontally */
+    margin: auto;
+    padding-bottom: 80px; /*  add space at the bottom */
+}
+
+.day1 {
+    flex: 1;
+    color: white;
+    font-size: 22px;
+    border: 2px solid goldenrod;
+}
+
+hr {
+    width: 100%;
+    height:1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: goldenrod;
+    border: none;
+  }
+
+.day2 {
+    flex: 1;
+    color: white;
+    font-size: 22px;
+    /* border: 2px solid goldenrod; */
+}
+
+.support {
+    text-align: center;
+    flex:1;
+    font-size: 22px;
+    line-height: 5px; /* decrease the space between lines */
+}
+
+p.support-text {
+ color:white;
+ line-height: 5px; /* decrease the space between lines */
+}
+
+p.event-text {
+    color:white;
+    font-size: 22px;
+    line-height: 5px; /* decrease the space between lines */
+   }
+   
+   .goldtext2 {
+    color: goldenrod;
+}
+
+.video {
+    text-align: center;
+    padding-top: -15px;;
+}
+
